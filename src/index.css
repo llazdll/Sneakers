@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+} */
+
+
+@layer components  {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
