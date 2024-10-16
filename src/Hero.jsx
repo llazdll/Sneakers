@@ -39,10 +39,10 @@ export default function Hero() {
                         <p className='opacity-65'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aut quibusdam. Ad illum, mollitia eligendi id vel aut quos laboriosam corporis atque harum tenetur impedit vero, nesciunt porro quidem laborum.</p>
                         <div className="price">
                             <div className="flex gap-4 items-center">
-                                <p className='text-2xl'>$125.00</p>
+                                <p className='text-2xl'>${count * 125}.00</p>
                                 <div className='bg-black text-white px-2 rounded-md'>50%</div>
                             </div>
-                            <p className='opacity-65 line-through'>${count * 125}.00</p>
+                            <p className='opacity-65 line-through'>${count * 500}.00</p>
                         </div>
                         <div className="  md:flex md:justify-between md:mt-4 mt-8">
                             <div className='flex gap-2 md:gap-4 px-4 items-center justify-evenly text-4xl bg-slate-200 rounded-md'>

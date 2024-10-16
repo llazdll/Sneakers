@@ -24,7 +24,7 @@ export default function Navbar() {
                 <div className=" flex items-center justify-evenly ">
                     <img src={logo} alt="Logo" className='pr-20 md:pr-5' />
                     <div className='hidden md:block '>
-                        <ul className="flex sm:gap-1 md:gap-4 lg:gap-8">
+                        <ul className="flex sm:gap-1 md:gap-4 lg:gap-8 md:text-sm">
                             <li className='hover:border-b-2 hover:border-primary-orange transition-colors'>Collection</li>
                             <li className='hover:border-b-2 hover:border-primary-orange transition-colors'>Men</li>
                             <li className='hover:border-b-2 hover:border-primary-orange transition-colors'>Women</li>
@@ -34,7 +34,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className=" flex gap-8 items-center justify-end">
-                    <img src={cartIcon} alt="Logo"  onClick={ClickHandler} />
+                    <img src={cartIcon} alt="Logo"  onClick={ClickHandler} className='hover:shadow-sm ' />
                     <img src={profile} alt="Logo" className='rounded-full w-[30%] items-center' />
                 </div>
             </div>

@@ -7,15 +7,15 @@ import Checkout from './Checkout'
 
 function App() {
   const isOpen = useSelector((state) => state.modal.isOpen);
-let content 
+  let content
   if (isOpen) {
-   content= <CartModal />
-  } 
-  if(isOpen==false){
-    content= <Hero />
+    content = <CartModal />
   }
-  if (isOpen=="checkout") {
-    content=<Checkout/>
+  if (isOpen == false) {
+    content = <Hero />
+  }
+  if (isOpen == "checkout") {
+    content = <Checkout />
   }
 
   return (

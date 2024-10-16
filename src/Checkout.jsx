@@ -26,7 +26,7 @@ const Checkout = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="max-w-md mx-auto p-4 border-2 rounded-md mt-20">
+        <form onSubmit={handleSubmit} className="max-w-md mx-auto p-4 border-2 rounded-md mt-20 w-[90%] md:w-[50%]">
             <div className="flex justify-between">
                 <h2 className="font-bold py-2">Checkout</h2>
                 <button className="text-4xl hover:text-primary-orange" onClick={() => dispatch(closeModal())}>x</button>

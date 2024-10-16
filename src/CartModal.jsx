@@ -11,7 +11,7 @@ const CartModal = forwardRef((props, ref) => {
 
 
   return (
-    <dialog ref={ref} className="min-w-[20vw] rounded-md p-4 border-2" open={isOpen==true}>
+    <dialog ref={ref} className="w-[90%] rounded-md p-4 border-2 mt-20 md:w-[50%]" open={isOpen==true}>
       <div className="flex justify-between">
       <h2 className="font-bold py-2">Cart</h2>
       {count > 0 ?(<button className="text-xl hover:text-primary-orange" onClick={() => dispatch(closeModal())}>x</button>):null}
